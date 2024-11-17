@@ -1,0 +1,6 @@
+start
+function moveDrone(heading, distance) {
+    turnLeft(heading);
+    moveForward(distance);
+}
+finish

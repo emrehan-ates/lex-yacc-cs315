@@ -1,0 +1,16 @@
+start
+
+climb(15);
+arr[5] = {3, 12, 5, 41, 16};
+function spinArray(){
+    while (i != 5){
+        moveBackward( function arr[i] );
+        turnRight(30);
+        i = i + 1;
+    }
+    time = getTime();
+    output("Done! at" + time);
+
+}
+
+finish

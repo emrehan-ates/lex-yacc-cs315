@@ -1,0 +1,13 @@
+start
+
+sprayOn();
+for (i == 0; i < 6; i = i + 1){
+    moveForward(50);
+    turnLeft(120d);
+}
+
+sprayOff();
+
+output("Hexagon is done");
+
+finish

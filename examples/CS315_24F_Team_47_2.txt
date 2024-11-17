@@ -1,0 +1,18 @@
+start
+function sprayPesticides() {
+   /* Start facing North */
+   climb(4);  /*Ascend to 4 meters above ground */
+   moveForward(10); /* Move to the edge of the field */
+   turnRight(90d);
+   moveForward(5);  /* Arrived to dashed line */
+   sprayOn();
+   moveForward(20);
+   moveDrone(90d, 10);
+   moveDrone(90d, 20); 
+   moveDrone(90d, 10);
+   sprayOff();
+   moveForward(10);
+   moveDrone(90d, 5);
+   drop();
+  }
+finish
